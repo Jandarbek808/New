@@ -1,10 +1,11 @@
+{% load static %}
 <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <footer class="text-gray-600 body-font">
   <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
     <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-      <i class="fa-solid fa-user-bounty-hunter"></i>
-      <span class="ml-3 text-xl">Our project</span>
+      <img class="object-cover object-center rounded" alt="hero" src="{% static 'images/django.svg' %}">
+    <span class="ml-3 text-xl">Our project</span>
     </a>
     <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2023.04.23 Jandarbek
       <a href="https://t.me/Jandarbeek" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">Jandarbek's Telegramm</a>
